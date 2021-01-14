@@ -111,7 +111,21 @@ function App() {
         ) : (
           ""
         )}
+        
+      
+      
       </main>
+
+      <div className="copyright">
+        © Copyright 2020 YohavB Designed by YohavB. Check the Code {""}
+        <a
+          href="https://github.com/YohavB/Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Here.
+        </a>
+      </div>
     </div>
   );
 }
